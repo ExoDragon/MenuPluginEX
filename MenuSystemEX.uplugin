@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "MenuSystemEX",
+	"Description": "A fully fledged out menu system",
+	"Category": "Other",
+	"CreatedBy": "Thomas Terlaak",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "MenuSystemEX",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
