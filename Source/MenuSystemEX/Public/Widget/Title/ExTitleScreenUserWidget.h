@@ -4,16 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "Widget/ExBaseUserWidget.h"
-#include "ExMainMenuUserWidget.generated.h"
+#include "ExTitleScreenUserWidget.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class MENUSYSTEMEX_API UExMainMenuUserWidget : public UExBaseUserWidget
+class MENUSYSTEMEX_API UExTitleScreenUserWidget : public UExBaseUserWidget
 {
 	GENERATED_BODY()
-
-
-	
 };
