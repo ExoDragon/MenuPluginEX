@@ -4,20 +4,21 @@
 
 #include "CoreMinimal.h"
 #include "Blueprint/UserWidget.h"
-#include "ExBaseUserWidget.generated.h"
+#include "EXWidgetBase.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class MENUSYSTEMEX_API UExBaseUserWidget : public UUserWidget
+class UEXWidgetBase : public UUserWidget
 {
 	GENERATED_BODY()
-	
+
 public:
 	UFUNCTION(BlueprintCallable)
 	virtual void SetupWidget();
 
 	UFUNCTION(BlueprintCallable)
 	virtual void RemoveWidget();
+	
 };
