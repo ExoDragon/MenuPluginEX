@@ -1,9 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
+#include "Widget/EXWidgetBase.h"
 
-#include "Widget/ExBaseUserWidget.h"
-
-void UExBaseUserWidget::SetupWidget()
+void UEXWidgetBase::SetupWidget()
 {
 	AddToViewport();
 	SetVisibility(ESlateVisibility::Visible);
@@ -24,7 +23,7 @@ void UExBaseUserWidget::SetupWidget()
 	}
 }
 
-void UExBaseUserWidget::RemoveWidget()
+void UEXWidgetBase::RemoveWidget()
 {
 	RemoveFromParent();
 }

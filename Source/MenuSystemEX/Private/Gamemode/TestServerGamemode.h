@@ -3,14 +3,15 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Widget/ExBaseUserWidget.h"
-#include "ExTitleScreenUserWidget.generated.h"
+#include "GameFramework/GameModeBase.h"
+#include "TestServerGamemode.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class MENUSYSTEMEX_API UExTitleScreenUserWidget : public UExBaseUserWidget
+class MENUSYSTEMEX_API ATestServerGamemode : public AGameModeBase
 {
 	GENERATED_BODY()
+	
 };

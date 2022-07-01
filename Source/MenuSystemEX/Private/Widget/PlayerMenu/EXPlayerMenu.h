@@ -3,17 +3,15 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Widget/ExBaseUserWidget.h"
-#include "ExMainMenuUserWidget.generated.h"
+#include "Blueprint/UserWidget.h"
+#include "EXPlayerMenu.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class MENUSYSTEMEX_API UExMainMenuUserWidget : public UExBaseUserWidget
+class UEXPlayerMenu : public UUserWidget
 {
 	GENERATED_BODY()
-
-
 	
 };
